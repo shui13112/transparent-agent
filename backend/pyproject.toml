@@ -1,0 +1,41 @@
+[project]
+name = "myagent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.8",
+    "dashscope>=1.25.17",
+    "dotenv>=0.9.9",
+    "fastapi>=0.136.0",
+    "langchain>=1.2.15",
+    "langchain-community>=0.4.1",
+    "langchain-ollama>=1.1.0",
+    "openai>=2.32.0",
+    "sentence-transformers>=5.4.1",
+    "gpt-researcher>=0.10.0",
+    "tavily-python>=0.5.0",
+    "ddgs>=9.14.0",
+    "requests>=2.33.1",
+    "beautifulsoup4>=4.14.3",
+    "colorama>=0.4.6",
+    "datetime>=6.0",
+    "llama-index-core>=0.14.21",
+    "llama-index-vector-stores-chroma>=0.5.5",
+    "llama-index-embeddings-huggingface>=0.7.0",
+    "llama-index-embeddings-openai>=0.6.0",
+    "langchain-deepseek>=1.0.1",
+    "selenium>=4.44.0",
+    "zendriver>=0.15.3",
+    "opencv-python-headless>=4.8.0",
+    "httpx>=0.27.0",
+    "llama-index-embeddings-dashscope>=0.5.0",
+    "llama-index-embeddings-alibabacloud-aisearch>=0.4.0",
+    "playwright>=1.60.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+]
