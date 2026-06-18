@@ -1,3 +1,4 @@
+![Architecture Diagram](2315628143156.png)
 ### 1. 环境要求
 
 - Python 3.10+
